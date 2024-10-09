@@ -1726,14 +1726,13 @@ footer.main__footer:after {
 }
 
 .blog_cell {
-  float: left;
-  width: 100%;
-  
   position: relative;
+  width: 100%;
+  overflow: hidden; /* Ensure content stays within the box */
+  transition: all 0.3s ease-in-out;
 }
 
 .blog_cell_image {
-  float: left;
   width: 60px;
   border-radius: 5px 5px 0 0;
   position: relative;
@@ -1743,124 +1742,44 @@ footer.main__footer:after {
 }
 
 .blog_cell_image img {
-  min-width: 100%;
+  width: 100%;
   object-fit: cover;
   display: block;
   border-radius: 5px 5px 0 0;
-}
-.blog_post_content {
-  display: flex;
-  flex-direction: column; /* Stack the image and text vertically */
- 
-}
-
-.blog_cell_image {
-  margin-bottom: 10px; /* Add space between the image and text */
-}
-
-.blog_cell_image img {
-  display: block;
-  margin: 0 auto; /* Center the image */
-}
-
-
-.blog_post_content_over {
-  display: block;
-  margin: 0;
-  clear: both;
-  position: relative;
-  z-index: 1;
-}
-
-.blog_post_content_over:before,
-.blog_post_content_over:after {
-  content: "";
-  display: block;
-  clear: both;
 }
 
 .blog_post_content {
   background: #fff;
   box-shadow: 0 0 26px rgba(0, 0, 0, 0.15);
   padding: 24px 30px;
-  float: left;
   width: 100%;
-  margin-top: 0;
   border-radius: 0 0 5px 5px;
+  position: relative;
+  transition: all 0.3s ease-in-out; /* Smooth hover transition */
 }
 
-.blog_post_content h3 {
-  display: block;
-  color: #0c6cd4;
-  font-size: 18px;
-  font-family: sf_ui_display_bold;
-  padding-bottom: 15px;
-  line-height: 1.4;
-  min-height: 91px;
-}
-
-.blog_post_content .arrow_r {
-  float: right;
-  margin-left: 0;
-  margin-top: 10px;
-  background-position: 0 -79px;
-  transition: all 0.3s ease-in-out 0s;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-}
-
-a.over_cell {
-  position: absolute;
-  z-index: 3;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.blog_cell:hover .arrow_r {
-  margin-right: -10px;
+.blog_post_content p {
+  margin: 0; /* Ensure no margin around the paragraph */
 }
 
 .hide_contentsl {
-  display: none;
+  position: absolute;
+  bottom: -100%; /* Start hidden below the container */
+  left: 0;
+  right: 0;
+  background-color: #fff; /* Background color to match the content box */
+  padding: 20px;
+  opacity: 0; /* Invisible initially */
+  transition: all 0.3s ease-in-out; /* Smooth appearance */
 }
 
-.hide_contentsl h4 {
-  font-size: 50px;
-  font-family: sf_ui_display_bold;
-  display: block;
-  clear: both;
-  padding-bottom: 20px;
+.blog_cell:hover .blog_post_content {
+  transform: translateY(-50px); /* Move the content up slightly to make space */
 }
 
-.hide_contentsl p {
-  display: block;
-  clear: both;
-  font-family: sf_ui_display_light;
-}
-
-.title_name_values {
-  color: #fff;
-  opacity: 0.7;
-  font-family: sf_ui_display_light;
-  cursor: pointer;
-}
-
-.title_name_values:hover {
-  opacity: 0.9
-}
-
-.repeat_section_portfolio {
-  display: block;
-  width: 100%;
-  clear: both;
-}
-
-.repeat_section_portfolio:before,
-.repeat_section_portfolio:after {
-  content: "";
-  display: block;
-  clear: both;
+.blog_cell:hover .hide_contentsl {
+  opacity: 1; /* Make the hidden content visible */
+  bottom: 0; /* Slide it up into the box */
 }
 
 .portfolio_showcase {
