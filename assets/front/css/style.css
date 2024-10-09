@@ -281,7 +281,7 @@ header.main__header {
   display: inline-block;
   width: 284px;
   height: 52px;
-  background: url(../images/logo.png) 0 0 no-repeat;
+  background: url(../images/versai-logo.svg);
   transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
 }
