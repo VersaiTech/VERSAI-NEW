@@ -281,7 +281,7 @@ header.main__header {
   display: inline-block;
   width: 284px;
   height: 52px;
-  background: url(../images/versai-logo.svg);
+  background: url(../images/Untitled\ design.png);
   transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
 }
@@ -1771,6 +1771,7 @@ footer.main__footer:after {
   padding: 20px;
   opacity: 0; /* Invisible initially */
   transition: all 0.3s ease-in-out; /* Smooth appearance */
+  
 }
 
 .blog_cell:hover .blog_post_content {
