@@ -4686,7 +4686,7 @@ a.overlay_section {
   clear: both;
   padding: 0;
   position: absolute;
- 
+
  
   bottom: 20px;
   
@@ -4695,23 +4695,25 @@ a.overlay_section {
   max-width: 90%;
 }
 
-.team_m_details h4 {
+ h4 {
   display: block;
   width: 100%;
   font-size: 14px;
   font-family: sf_ui_display_semibold;
   text-transform: uppercase;
-  color: #444
+  color: #444;
+  text-align: center;
 }
 
-.team_m_details span {
+ h6 {
   display: block;
   width: 100%;
   font-size: 12px;
   clear: both;
   text-transform: uppercase;
-  color: #888;
+  color: #343a40;
   padding-top: 6px;
+  text-align: center;
 }
 
 .value_heart {
@@ -20366,4 +20368,7 @@ p.story-detail {
     max-width: 100%;
     flex: 0 0 100%;
   }
+}
+.s-card-icon2{
+  width:97%;
 }
