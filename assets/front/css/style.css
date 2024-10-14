@@ -1102,9 +1102,10 @@ footer.main__footer:after {
 .sec_head_title {
   display: block;
   width: 100%;
-  font-size: 30px;
+  font-size: 40px;
   font-family: sf_ui_display_medium;
   line-height: normal;
+  font-weight: 600;
 }
 
 .sec_head_title span {
@@ -1116,9 +1117,10 @@ footer.main__footer:after {
   display: block;
   width: 100%;
   clear: both;
-  font-size: 16px;
-  line-height: 1.4;
+  font-size: 15px;
+  line-height: 27px;
   padding-top: 10px;
+  
 }
 
 .approach_cell {
@@ -4684,11 +4686,12 @@ a.overlay_section {
   clear: both;
   padding: 0;
   position: absolute;
-  right: -20px;
-  top: 20px;
-  left: auto;
+ 
+ 
+  bottom: 20px;
+  
   z-index: 1;
-  text-align: left;
+  text-align: center;
   max-width: 90%;
 }
 

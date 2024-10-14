@@ -8302,8 +8302,8 @@ Uri: https://xtreemsolution.com/magento-development-services.html
 File Name: C:\Users\Admin\OneDrive\Desktop\versai tech 2\xtreemsolution.com\magento-development-services.html
 Content Type: text/html
 
-Uri: https://xtreemsolution.com/mobile-app-development-services.html
-File Name: C:\Users\Admin\OneDrive\Desktop\versai tech 2\xtreemsolution.com\mobile-app-development-services.html
+Uri: https://xtreemsolution.com/blockchain-development-company.html
+File Name: C:\Users\Admin\OneDrive\Desktop\versai tech 2\xtreemsolution.com\blockchain-development-company.html
 Content Type: text/html
 
 Uri: https://xtreemsolution.com/mongo-db-development.html
