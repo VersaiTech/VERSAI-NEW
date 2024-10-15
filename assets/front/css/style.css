@@ -4695,6 +4695,11 @@ a.overlay_section {
   max-width: 90%;
 }
 
+.h2 {
+    text-transform: uppercase;
+}
+
+
 .team_m_details h4 {
   display: block;
   width: 100%;

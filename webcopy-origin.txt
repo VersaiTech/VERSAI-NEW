@@ -8262,8 +8262,8 @@ Uri: https://xtreemsolution.com/html5-development-services.html
 File Name: C:\Users\Admin\OneDrive\Desktop\versai tech 2\xtreemsolution.com\html5-development-services.html
 Content Type: text/html
 
-Uri: https://xtreemsolution.com/infrastructure.html
-File Name: C:\Users\Admin\OneDrive\Desktop\versai tech 2\xtreemsolution.com\infrastructure.html
+Uri: https://xtreemsolution.com/Gallery.html
+File Name: C:\Users\Admin\OneDrive\Desktop\versai tech 2\xtreemsolution.com\Gallery.html
 Content Type: text/html
 
 Uri: https://xtreemsolution.com/ionic-development.html
