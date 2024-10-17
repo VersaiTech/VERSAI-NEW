@@ -1161,8 +1161,10 @@ footer.main__footer:after {
   display: block;
   clear: both;
   width: 100%;
-  line-height: 1.4;
+  line-height: 28px;
   min-height: 90px;
+  font-size: 17px;
+
 }
 
 .plateform_names {
@@ -13056,10 +13058,11 @@ span.and_icon {
 .sec_subhead span.makeItStong {
   border-bottom: solid 2px #0c6cd3;
   padding-bottom: 4px;
-  line-height: 1;
+  line-height: 24px;
   display: inline-block;
   color: #0c6cd3;
   font-family: sf_ui_display_light !important;
+  font-size: 17px;
 }
 
 .services_seprate_row {
