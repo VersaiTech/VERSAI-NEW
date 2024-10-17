@@ -78,6 +78,7 @@ h6 {
 
 body {
   line-height: 1;
+  font-family: open sans, sans-serif;
 }
 
 a {
@@ -13058,7 +13059,7 @@ span.and_icon {
 .sec_subhead span.makeItStong {
   border-bottom: solid 2px #0c6cd3;
   padding-bottom: 4px;
-  line-height: 24px;
+  line-height: 28px;
   display: inline-block;
   color: #0c6cd3;
   font-family: sf_ui_display_light !important;
